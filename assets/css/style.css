@@ -1,0 +1,132 @@
+html {
+	height: 100%;
+}
+
+head, body {
+	margin: 0px;
+	height: 100%;
+}
+
+#init-container {
+	width: 100%;
+	background-color: #3A3A3A;
+	height: 900px;
+	position: relative;
+}
+
+.hike-title {
+	position: relative;
+	margin: 0px 0px 0px 0px;
+	color: #EDEDED;
+	text-orientation: right;
+	font-family: 'Oswald', sans-serif;
+	font-size: 72px;
+	text-align: right;
+	right: 775px;
+	top: 160px;
+	z-index: 11;
+}
+
+#explanation {
+	position: relative;
+	font-size: 28px;
+	color: #EDEDED;
+	width: 400px;
+	font-family: 'Sumana', serif;
+	line-height: 1.25;
+	right: -775px;
+	bottom: 82px;
+	z-index: 11;
+}
+
+.grid-container {
+	position: relative;
+	border: 3px solid #929292;
+	width: 24%;
+	height: 300px;
+	float: left;
+	left: 14px;
+	transition: .4s;
+	bottom: -115px;
+}
+
+.grid-text {
+	text-align: center;
+	font-family: 'Sumana', serif;
+	font-size: 28px;
+	color: #929292;
+	margin-top: 5px;
+}
+
+#sugarloaf-text {
+	transition: .4s;
+}
+
+#sugarloaf:hover {
+	background-image: url("../img/sugarloaf.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#auburn-text {
+	transition: .4s;
+}
+
+#auburn:hover {
+	background-image: url("../img/auburnquarry.jpg");
+	background-repeat: no-repeat;
+}
+
+#skyline-text {
+	transition: .4s;
+}
+
+#skyline:hover {
+	background-image: url("../img/skylinetothesea.jpg");
+	background-repeat: no-repeat;
+	transition: .4s;
+}
+
+#halfdome-text {
+	transition: .4s;
+}
+
+#halfdome:hover {
+	background-image: url("../img/halfdome.jpg");
+	background-repeat: no-repeat;
+}
+
+#hill {
+	position: relative;
+	width: 100%;
+	bottom: -300px;
+	z-index: 10;
+}
+
+#quarry {
+	position: relative;
+	width: 100%;
+	z-index: 9;
+	bottom: -1000px;
+}
+
+#sky-line-tts {
+	position: relative;
+	width: 100%;
+	z-index: 8;
+	bottom: -1875px;
+}
+
+#hdome {
+	position: relative;
+	width: 70%;
+	z-index: 7;
+	bottom: -2925px;
+}
+
+#sky {
+	position: relative;
+	width: 100%;
+	z-index: 6;
+	bottom: -3650px;
+}
